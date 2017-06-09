@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "scotchDS"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "scotchDS",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "scotchDS",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "scotchDS",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "scotchDS",
     "public": false
   },
   "comment": {
-    "dataSource": "db",
+    "dataSource": "scotchDS",
     "public": true
   }
 }
